@@ -93,20 +93,20 @@ CREATE TABLE OrderDetails (
     rating decimal
 );
 
-INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyIdName, DeliveryBoyMobile, OrderStatus, rating)  
+INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyName, DeliveryBoyMobile, OrderStatus, rating)  
    VALUES (001, 'prakhar.g', 'Ramesh', '7784455677', 'Completed', 5);
-INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyIdName, DeliveryBoyMobile, OrderStatus, rating)  
+INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyName, DeliveryBoyMobile, OrderStatus, rating)  
    VALUES (001, 'prakhar.g', 'Rahul', '8745147685', 'Completed', 4.2);
-INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyIdName, DeliveryBoyMobile, OrderStatus, rating)  
+INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyName, DeliveryBoyMobile, OrderStatus, rating)  
    VALUES (006, 'prakhar.g', 'Suresh', '7784454477', 'Completed', 3.8);
-INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyIdName, DeliveryBoyMobile, OrderStatus, rating)  
+INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyName, DeliveryBoyMobile, OrderStatus, rating)  
    VALUES (002, 'admin', 'Sukesh', '847451475', 'Completed', 3.2);
 
-INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyIdName, DeliveryBoyMobile, OrderStatus)  
+INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyName, DeliveryBoyMobile, OrderStatus)  
    VALUES (001, 'admin', 'Ramesh', '7784455677', 'Out For Delivery');
 INSERT INTO OrderDetails (RestaurantId, UserId, OrderStatus)  
    VALUES (001, 'admin', 'Ordered');
-INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyIdName, DeliveryBoyMobile, OrderStatus)  
+INSERT INTO OrderDetails (RestaurantId, UserId, DeliveryBoyName, DeliveryBoyMobile, OrderStatus)  
    VALUES (006, 'admin', 'Suresh', '7784454477', 'Out For Delivery');
 INSERT INTO OrderDetails (RestaurantId, UserId, OrderStatus)  
    VALUES (002, 'admin', 'Processing');
